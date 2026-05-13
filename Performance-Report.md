@@ -254,4 +254,4 @@ logrotate 없이 스크립트 자체에서 처리하므로 cron 외부 의존이
 
 ## 산출 파일
 - `monitor.sh` — 본 디렉토리(`m1/monitor.sh`)에 동봉. 실행본은 머신 내 `$AGENT_HOME/bin/monitor.sh`.
-- `수행내역서.md` — 본 문서.
+- `Performance-Report.md` — 본 문서.
