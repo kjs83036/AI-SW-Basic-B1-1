@@ -8,7 +8,7 @@
 set -u
 
 # ── 설정값 (환경 변수 미지정 시 기본값 사용) ──────────────────
-APP_NAME="agent-app-linux-x86"          # 점검 대상 프로세스명
+APP_NAME="${APP_NAME:-"agent-app-linux-x86"}"          # 점검 대상 프로세스명
 APP_PORT="${AGENT_PORT:-15034}"          # 점검 대상 포트
 LOG_DIR="${AGENT_LOG_DIR:-/var/log/agent-app}"
 LOG_FILE="${LOG_DIR}/monitor.log"
